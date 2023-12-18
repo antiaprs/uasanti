@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UAS </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="uas.html">Home</a>
+            <a href="profill.html">Profil</a>
+            <a href="p13.html">EXO</a>
+            <a href="https://wa.me/+6289699449276">Kontak</a>
+        </nav>
+    </header>
+    <script>
+        // Menggunakan prompt() untuk meminta nama pengguna
+        var userName = prompt("Masukkan nama Anda:", "Anti Apriani Sudarmo");
+    
+        // Memeriksa apakah pengguna memberikan input atau tidak
+        if (userName != null && userName != "") {
+            alert("Halo, " + userName + "!");
+        } else {
+            alert("Anda tidak memasukkan nama.");
+        }
+    </script>
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo, nama saya Anti Apriani, biasa dipanggil Ai. Mau kenal lebih lanjut? Yuk, baca website ini.
+        </p>
+    </section>
+
+    <section>
+        <h2>Jawaban NO 1</h2>
+        Sebuah website bekerja dengan cara umumnya sebagai berikut:
+
+Pengetikan URL:
+Pengguna mengetikkan URL (Uniform Resource Locator) atau alamat website di browser mereka.
+Permintaan HTTP:
+Browser mengirim permintaan HTTP (Hypertext Transfer Protocol) ke server web yang diindikasikan oleh URL.
+DNS Resolution:
+Jika URL yang dimasukkan adalah nama domain (contoh: www.nama-domain.com), sistem Domain Name System (DNS) dijalankan untuk mengonversi nama domain menjadi alamat IP yang sesuai.
+Koneksi ke Web Server:
+Setelah mendapatkan alamat IP, browser terhubung ke web server menggunakan protokol HTTP.
+Pengiriman Permintaan:
+Browser mengirimkan permintaan HTTP ke server, yang berisi informasi tentang halaman atau sumber daya yang diminta.
+Server Processing:
+Web server menerima permintaan tersebut, memprosesnya, dan mengirimkan kembali hasilnya.
+Penerimaan dan Rendering:
+Browser menerima respons dari server, yang dapat berisi HTML, CSS, JavaScript, dan berbagai sumber daya lain. Browser kemudian merender atau menampilkan halaman web sesuai dengan instruksi yang diberikan.
+Interaksi Pengguna:
+Pengguna dapat berinteraksi dengan halaman web, melakukan klik, mengisi formulir, dan sebagainya.
+Hubungan antara Web Server, Domain, dan Hosting:
+
+Web Server:
+Ini adalah perangkat keras atau perangkat lunak yang menyimpan dan menyajikan halaman web kepada pengguna. Server tersebut menerima permintaan dari browser, memprosesnya, dan mengirimkan kembali halaman web yang diminta.
+Domain:
+Nama domain adalah alamat yang mudah diingat yang digunakan oleh manusia untuk mengakses sebuah website. Misalnya, www.nama-domain.com. Domain ini dikonversi menjadi alamat IP melalui DNS agar dapat ditemukan oleh server.
+Hosting:
+Hosting adalah tempat di mana file-file website disimpan dan diakses oleh pengguna melalui internet. Hosting menyediakan ruang penyimpanan dan sumber daya server yang diperlukan agar website dapat diakses secara online. Domain dan hosting saling terkait karena website di-hosting pada server, dan domain digunakan untuk mengakses server tersebut.
+    </section>
+
+    <footer>
+        &copy; 2023 Anti Apriani 211011400467
+    </footer>
+
+</body>
+
+</html>
